@@ -1,19 +1,110 @@
 {
 "Actor": {
-  "types": ["character"],
+  "types": ["hero", "villain"],
   "character": {
-    "biography": "",
-    "health": {
-      "value": 10,
-      "min": 0,
-      "max": 10
+    "playbook": "",
+    "hero_name": "",
+    "real_name": "",
+    "appearance": "",
+    "moment_of_truth": "",
+    "potential": {
+
     },
-    "power": {
-      "value": 5,
-      "min": 0,
-      "max": 5
+    "influence": "",
+    "backstory": {
+      "number_1": {
+        "value": ""
+      },
+      "number_2": {
+        "value": ""
+      },
+      "number_3": {
+        "value": ""
+      },
+      "number_4": {
+        "value": ""
+      },
+      "number_5": {
+        "value": ""
+      }
     },
-    "attributes": {}
+    "team_story": {
+      "label": "When our team first came together...",
+      "value": {}
+    },
+    "labels": {
+      "danger": {
+        "label": "Danger"
+      },
+      "freak": {
+        "label": "Freak"
+      },
+      "savior":{
+        "label": "Savior"
+      },
+      "superior": {
+        "label": "Superior"
+      },
+      "mundane": {
+        "label": "Mundane"
+      },
+      "extra": {
+        "label": "Extra"
+      }
+    },
+    "conditions": {
+      "afraid": {
+        "label": "Afraid"
+      },
+      "hopeless": {
+        "label": "Hopeless"
+      },
+      "insecure":{
+        "label": "Insecure"
+      },
+      "guilty": {
+        "label": "Guilty"
+      },
+      "angry": {
+        "label": "Angry"
+      },
+      "extra": {
+        "label": "Extra"
+      }
+    },
+    "team_moves": {
+      "move_a": "",
+      "move_b": ""
+    },
+    "moves": {
+
+    },
+    "advances": {
+      "label": "Advances",
+      "later_advances": {
+        "label": "Later Advances"
+      }
+    },
+    "abilities": {
+      "ability_one": {
+        "label": ""
+      },
+      "hopeless": {
+        "label": "Hopeless"
+      },
+      "insecure":{
+        "label": "Insecure"
+      },
+      "guilty": {
+        "label": "Guilty"
+      },
+      "angry": {
+        "label": "Angry"
+      },
+      "extra": {
+        "label": "Extra"
+      }
+    }
   }
 },
 "Item": {
