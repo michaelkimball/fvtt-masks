@@ -30,12 +30,12 @@ Hooks.once("init", async function() {
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("worldbuilding", MasksActorSheet, { makeDefault: true });
+  Actors.registerSheet("masks", MasksActorSheet, { makeDefault: true });
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("worldbuilding", MasksItemSheet, {makeDefault: true});
+  Items.registerSheet("masks", MasksItemSheet, {makeDefault: true});
 
   // Register system settings
-  game.settings.register("worldbuilding", "macroShorthand", {
+  game.settings.register("masks", "macroShorthand", {
     name: "Shortened Macro Syntax",
     hint: "Enable a shortened macro syntax which allows referencing attributes directly, for example @str instead of @attributes.str.value. Disable this setting if you need the ability to reference the full attribute model, for example @attributes.str.label.",
     scope: "world",

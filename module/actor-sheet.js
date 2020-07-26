@@ -7,7 +7,7 @@ export class MasksActorSheet extends ActorSheet {
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ["worldbuilding", "sheet", "actor"],
+      classes: ["masks", "sheet", "actor"],
       template: "systems/fvtt-masks/templates/actor-sheet.html",
       width: 600,
       height: 600,

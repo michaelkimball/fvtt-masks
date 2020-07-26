@@ -7,7 +7,7 @@ export class MasksActor extends Actor {
   /** @override */
   getRollData() {
     const data = super.getRollData();
-    const shorthand = game.settings.get("worldbuilding", "macroShorthand");
+    const shorthand = game.settings.get("masks", "macroShorthand");
 
     // Re-map all attributes onto the base roll data
     if ( !!shorthand ) {

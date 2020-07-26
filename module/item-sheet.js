@@ -7,8 +7,8 @@ export class MasksItemSheet extends ItemSheet {
   /** @override */
 	static get defaultOptions() {
 	  return mergeObject(super.defaultOptions, {
-			classes: ["worldbuilding", "sheet", "item"],
-			template: "systems/worldbuilding/templates/item-sheet.html",
+			classes: ["masks", "sheet", "item"],
+			template: "systems/fvtt-masks/templates/item-sheet.html",
 			width: 520,
 			height: 480,
       tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description"}]
